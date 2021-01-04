@@ -27,7 +27,7 @@
         </tr>
         @foreach ($products as $product)
         <tr>
-            <td>{{ ++$i }}</td>
+            <td>{{ $product->id }}</td>
             <td>{{ $product->name }}</td>
             <td>{{ $product->detail }}</td>
             <td>
