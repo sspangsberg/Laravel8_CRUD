@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="row">
-        <div class="col-lg-12 margin-tb">
+        <div class="col-lg-12">
             <div class="pull-left">
                 <h2>Laravel 8 CRUD Example</h2>
             </div>
