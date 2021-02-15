@@ -68,8 +68,8 @@ class ProductTableSeeder extends Seeder
         $product->save();
 
         $product = new \App\Models\Product([
-            'name' => 'Product #9',
-            'detail' => 'Product #9 details'
+            'name' => 'Product #10',
+            'detail' => 'Product #10 details'
         ]);
         $product->save();
     }
